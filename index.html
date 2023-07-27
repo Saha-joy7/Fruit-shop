@@ -20,15 +20,64 @@
 <body class="font-style">
     <header class="max-w-[1230px] p-3 lg:px-7 mx-auto mb-3 md-16 lg:mb-24 ">
       <!-- navbar container -->
-        <nav>
-            
-        </nav>
+      <nav class="mb-2">
+        <div class="navbar md:bg-[#F85559] rounded-full p-2">
+          <div class="navbar-start">
+            <div class="visible md:invisible">
+              <div class="flex items-center">
+                <div class="object-cover">
+                  <img src="./images/logo.png" alt="" class="w-7">
+                </div>
+                <h3 class="text-lg text-black md:text-white font-bold">Fruit Burst</h3>
+              </div>
+            </div>
+            <div class="absolute hidden sm:block">
+              <div class="space-x-3 text-black md:text-white">
+                <a href="#" class="font-normal text-sm">Home</a>
+                <a href="#" class="font-normal text-sm">About Us</a>
+                <a href="#" class="font-normal text-sm">Shop</a>
+                <a href="#" class="font-normal text-sm">All Fruits</a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-center">
+            <div class="hidden sm:block">
+              <div class=" flex items-center">
+                <div class="object-cover">
+                  <img src="./images/logo.png" alt="" class="w-9 md:w-10 lg:w-12">
+                </div>
+                <h3 class=" md:text-2xl lg:text-3xl text-black md:text-white font-bold">Fruit Burst</h3>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="fixed hidden sm:block">
+              <div class="form-control">
+                <input type="text" placeholder="Search Here" class="input input-bordered w-24 md:w-auto rounded-full" />
+              </div>
+            </div>
+            <div class="visible md:invisible">
+              <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Homepage</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>About</a></li>
+                  <input type="text" placeholder="Search Here " class="input input-bordered w-24 md:w-auto rounded-full" />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
         <!--Carousel container -->
-        <section>
+      <section>
           <div>
             <div class="carousel w-full ">
               <div id="slide1" class="carousel-item relative w-full ">
-                <div class="hero h-44 md:h-72  lg:min-h-screen" style="background-image: url('./images/banner1.png');">
+                <div class="hero h-64 md:h-96  lg:min-h-screen" style="background-image: url('./images/banner1.png');">
                   <div class="hero-overlay  bg-opacity-60"></div>
                   <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
@@ -136,7 +185,7 @@
      <section>
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div>
-          <h3 class="text-xl md:text-3xl lg:text-4xl font-bold text- [#121212] text-center lg:text-left">Deal of the day</h3>
+          <h3 class="text-xl md:text-3xl lg:text-4xl font-bold text-[#121212] text-center lg:text-left">Deal of the day</h3>
           <p class="text-xs md:text-sm lg:text-base font-normal text-[#4b3737] lg:w-3/5 mx-auto lg:ml-0 text-center w-4/5 lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <div>
@@ -291,10 +340,10 @@
       </div>
      </section>
      <!-- Team member container -->
-     <section class="lg:mt-24">
+     <section class="lg:mt-24" >
       <div class="hero min-h-screen" style="background-image: url('./images/banner1.png');">
         <div class="hero-overlay bg-opacity-60"></div>
-        <div class=" text-center text-neutral-content">
+        <div class=" text-center text-neutral-content py-5">
          
             <div class="space-y-3">
               <h3 class="text-xl md:text-3xl lg:text-4xl font-bold text-[#fff] text-center">Meet the team section</h3>
@@ -452,3 +501,16 @@
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
